@@ -1,0 +1,24 @@
+# Environment variables
+.env
+
+# Generated output
+output/
+
+# StyleGAN3 repository
+stylegan3/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Logs
+*.log
+
+# Docker
+.dockerignore 

@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  van-gogh-bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./output:/app/output
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+    restart: unless-stopped

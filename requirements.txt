@@ -1,0 +1,8 @@
+ninja
+scipy
+lpips
+python-telegram-bot==13.15
+requests
+pillow
+python-dotenv
+click
